@@ -1,0 +1,11 @@
+usage: <program> -<input-method> [input-parameters] -<output-method> [output-parameters]
+where
+	<program> is your main class, e.g. java home.decathlon.DecathlonCalculator
+	<input-method> is the name of the input method preceded by dash (-): -console, -csv
+	[input-parameters] are optional parameters depending on the specified input method:
+	-console - no parameters
+	-csv - input file name or path
+	<output-method> is the name of the output method preceded by dash (-): -conole, -csv
+	[output-parameters] are optional parameters depending on the specified output method:
+	-console - no parameters
+	-csv - output file name or path
